@@ -4,7 +4,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
 
-__author__ = 'Gruppe 1'
 __doc__ = 'extract news header from reuters using selenium'
 
 
