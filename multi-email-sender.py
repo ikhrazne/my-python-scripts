@@ -39,7 +39,7 @@ if __name__ == "__main__":
         receivers = receivers.split(',')
 
     if type(receivers) == list:
-        for receiver in receivers.split(','):
+        for receiver in receivers:
             send_email(rec_email=receiver)
     else:
         send_email(receivers)
